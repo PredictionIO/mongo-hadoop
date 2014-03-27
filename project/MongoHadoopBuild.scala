@@ -11,7 +11,7 @@ object MongoHadoopBuild extends Build {
     version := "1.1.0",
     crossScalaVersions := Nil,
     crossPaths := false,
-    organization := "org.mongodb"
+    organization := "io.prediction"
   )
 
   /** The version of Hadoop to build against. */
